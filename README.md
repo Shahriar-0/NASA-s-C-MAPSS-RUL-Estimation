@@ -143,7 +143,7 @@ The architecture of the hybrid CNN-LSTM  model is shown below:
 
 This approach works by first using a CNN to extract features and then passing them to an LSTM network, which makes decisions based on the historical data. These two networks complement each other; when only one of them is used (as implemented later), we observe that although they have good accuracy, using both together to compensate for each other's shortcomings results in a more accurate model. The architecture and functionality of this model can be seen more precisely in the figure below:
 
-[detailed architecture](images/cnn_lstm_detailed.png)
+![detailed architecture](images/cnn_lstm_detailed.png)
 
 #### Classification Results
 
